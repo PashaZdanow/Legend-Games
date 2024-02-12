@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Protest+Guerrilla&display=swap');
+.download-button {
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgb(204, 0, 0);
+    transition: 0.1s transform;
+    cursor: pointer;
+    font-family: 'Comic Neue';
+}
+.download-button:hover { /* */
+    background-color: aliceblue;
+    color: black;
+  transform: scale(0.9);  
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(./img/fongames.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.chef-line {
+    background: linear-gradient(90deg, rgba(239,255,38,0.8) 7%, rgba(255,183,0,0.8) 50%, rgba(114,218,0,0.8) 93%);
+    border: 0px solid green;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-right-color: rgb(147, 118, 2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    margin: 0px 380px;
+}
+.legendgames {
+    font-family: 'Protest Guerrilla';
+    padding: 7px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(204, 0, 0);
+}
+.text {
+    text-align: center;
+    font-family: 'Protest Guerrilla';
+}
+ .text2 {
+    font-family: 'Protest Guerrilla';
+ }
+ .games {
+    list-style-type: none;
+ }
