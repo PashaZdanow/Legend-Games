@@ -31,6 +31,7 @@ body {
     padding: 20px;
     min-height: 100vh;
     margin: 0px 25%;
+    transition: 0.2s;
 }
 .legendgames {
     font-family: 'Protest Guerrilla';
@@ -50,4 +51,9 @@ body {
  }
  .games {
     list-style-type: none;
+ }
+ @media (max-width: 400px) {
+    .chef-line {
+        margin: 0px 1%;
+    }
  }
